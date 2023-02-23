@@ -59,25 +59,7 @@ public class giao_dien_tra_tu extends JFrame {
 			}
 		});
 		
-		JLabel lblNewLabel_9 = new JLabel("");
-		lblNewLabel_9.setToolTipText("Ấn vào để nghe cách đọc");
 		
-		lblNewLabel_9.setIcon(new ImageIcon("D:\\Download\\Hinh_Anh\\Hinh\\button (11).png"));
-		lblNewLabel_9.setBounds(508, 473, 54, 46);
-		contentPane.add(lblNewLabel_9);
-		lblNewLabel_9.addMouseListener(new MouseAdapter() {
-			@Override
-			public void mouseClicked(MouseEvent e) {
-			}
-			@Override
-			public void mouseEntered(MouseEvent e) {
-				lblNewLabel_9.setIcon(new ImageIcon("D:\\Download\\Hinh_Anh\\Hinh\\button (13).png"));
-			}
-			@Override
-			public void mouseExited(MouseEvent e) {
-				lblNewLabel_9.setIcon(new ImageIcon("D:\\Download\\Hinh_Anh\\Hinh\\button (11).png"));
-			}
-		});
 		
 		
 		JLabel lblNewLabel_8 = new JLabel("");
@@ -116,6 +98,32 @@ public class giao_dien_tra_tu extends JFrame {
 		tra_tu.setColumns(10);
 		
 //  ]
+		
+// Vùng audio nghe phát âm từ vựng " cần thuật toán chạy file audio nghe cách phát âm" [
+		
+		JLabel lblNewLabel_9 = new JLabel("");
+		
+		lblNewLabel_9.setToolTipText("Ấn vào để nghe cách đọc"); // tip chú thích chức năng
+		
+		lblNewLabel_9.setIcon(new ImageIcon("D:\\Download\\Hinh_Anh\\Hinh\\button (11).png")); 
+		lblNewLabel_9.setBounds(508, 473, 54, 46);
+		contentPane.add(lblNewLabel_9);
+		lblNewLabel_9.addMouseListener(new MouseAdapter() {
+			@Override
+			public void mouseClicked(MouseEvent e) {  // sự kiện xãy ra khi nhấn chuột vào " cần thuật toán chạy file audio nghe cách phát âm" 
+			
+			}
+			@Override
+			public void mouseEntered(MouseEvent e) { 
+				lblNewLabel_9.setIcon(new ImageIcon("D:\\Download\\Hinh_Anh\\Hinh\\button (13).png"));
+			}
+			@Override
+			public void mouseExited(MouseEvent e) {
+				lblNewLabel_9.setIcon(new ImageIcon("D:\\Download\\Hinh_Anh\\Hinh\\button (11).png"));
+			}
+		});
+		
+// ]
 	
 ////  }
 		
